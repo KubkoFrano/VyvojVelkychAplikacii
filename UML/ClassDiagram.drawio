@@ -85,7 +85,7 @@
           <mxGeometry x="650" y="410" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PsZUaiYf1aoz2zm3PNSd-65" value="Supervízor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="860" y="162" width="140" height="52" as="geometry" />
+          <mxGeometry x="870" y="162" width="140" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
