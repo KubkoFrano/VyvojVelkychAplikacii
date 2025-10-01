@@ -94,6 +94,15 @@
         <mxCell id="v1jmXOaI3oIM4jCo9ueC-22" value="&amp;lt;&amp;lt;SOAP&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="100" y="340" width="80" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="v1jmXOaI3oIM4jCo9ueC-23" value="&amp;lt;&amp;lt;SOAP&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="210" y="400" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v1jmXOaI3oIM4jCo9ueC-24" value="&amp;lt;&amp;lt;SOAP&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v1jmXOaI3oIM4jCo9ueC-26" value="Hlavný cluster" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="10" width="540" height="490" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
