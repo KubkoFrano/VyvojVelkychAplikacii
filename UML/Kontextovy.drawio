@@ -202,10 +202,10 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dZAlSmz0zj5mqucRULhj-60" value="Platobná disciplína klientov" style="html=1;verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1.003;exitY=0.586;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;" edge="1" parent="1" source="dZAlSmz0zj5mqucRULhj-43" target="dZAlSmz0zj5mqucRULhj-58">
+        <mxCell id="dZAlSmz0zj5mqucRULhj-60" value="Platobná disciplína klientov" style="html=1;verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=1.003;entryY=0.586;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;endFill=1;entryPerimeter=0;" edge="1" parent="1" source="dZAlSmz0zj5mqucRULhj-58" target="dZAlSmz0zj5mqucRULhj-43">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="110" y="568.82" as="sourcePoint" />
-            <mxPoint x="269" y="568.82" as="targetPoint" />
+            <mxPoint x="269" y="568.82" as="sourcePoint" />
+            <mxPoint x="110" y="568.82" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dZAlSmz0zj5mqucRULhj-61" value="Údaje o úveroch klientov" style="html=1;verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=1;entryY=0.517;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;endFill=1;entryPerimeter=0;" edge="1" parent="1" source="dZAlSmz0zj5mqucRULhj-58" target="dZAlSmz0zj5mqucRULhj-43">
