@@ -1,0 +1,502 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.5">
+  <diagram name="Page-1" id="jOTeJ231Kcv89sXyomZJ">
+    <mxGraphModel dx="5704" dy="4205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5q3drODiM073Wt-jsi-K-8" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-1160" width="20" height="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-9" value="&lt;div&gt;Prezentačná vrstva&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="100" y="-1160" width="100" height="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-9">
+          <mxGeometry x="45" y="70" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-15" value="identifikácia klienta" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;curved=0;rounded=0;startFill=0;" edge="1" target="5q3drODiM073Wt-jsi-K-14" parent="5q3drODiM073Wt-jsi-K-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="75" as="sourcePoint" />
+            <mxPoint x="49.5" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-37" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-9">
+          <mxGeometry x="45" y="350" width="10" height="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-38" value="vytvorenie žiadosti" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;startFill=0;" edge="1" target="5q3drODiM073Wt-jsi-K-37" parent="5q3drODiM073Wt-jsi-K-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-10" value="&lt;div&gt;Servisná vrstva&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="220" y="-1160" width="100" height="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-10">
+          <mxGeometry x="45" y="90" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-40" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-10">
+          <mxGeometry x="45" y="370" width="10" height="2110" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Zamestnanec&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-1130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-16" value="DB Minist. vnútra" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="330" y="-1160" width="100" height="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-16">
+          <mxGeometry x="45" y="100" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-119" value="&lt;div&gt;získaj supervízora&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5q3drODiM073Wt-jsi-K-118" parent="5q3drODiM073Wt-jsi-K-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-65" y="1985" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-19" value="identifikácia klienta" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;startFill=0;" edge="1" target="5q3drODiM073Wt-jsi-K-18" parent="1" source="5q3drODiM073Wt-jsi-K-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="-1065" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-22" value="identifikácia klienta" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;startFill=0;entryPerimeter=0;" edge="1" target="5q3drODiM073Wt-jsi-K-21" parent="1" source="5q3drODiM073Wt-jsi-K-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="-1055" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-23" value="odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="-1011" as="sourcePoint" />
+            <mxPoint x="275" y="-1011" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-24" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-990" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-28" value="[stratený/odcudzený]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-965" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-29" value="neg. odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="5q3drODiM073Wt-jsi-K-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="257.5" y="-920" as="sourcePoint" />
+            <mxPoint x="152.5" y="-920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-31" value="zruš sedenie" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="-920" as="sourcePoint" />
+            <mxPoint x="40.02380952380952" y="-920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-33" value="odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="-872" as="sourcePoint" />
+            <mxPoint x="155" y="-872" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-35" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.996;entryY=0.61;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5q3drODiM073Wt-jsi-K-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="-900" as="sourcePoint" />
+            <mxPoint x="150" y="-950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-36" value="odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0028" relative="1" as="geometry">
+            <mxPoint x="145" y="-851" as="sourcePoint" />
+            <mxPoint x="40.02380952380952" y="-851" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-39" value="Klientsky systém banky" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="450" y="-1160" width="100" height="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-39">
+          <mxGeometry x="45" y="490" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-53" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-39">
+          <mxGeometry x="45" y="610" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-54" value="získaj údaje o klientovi" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="5q3drODiM073Wt-jsi-K-39" target="5q3drODiM073Wt-jsi-K-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-175" y="615" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-55" value="údaje" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="5q3drODiM073Wt-jsi-K-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-175" y="656" as="targetPoint" />
+            <mxPoint x="45" y="656" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-41" value="vytvorenie žiadosti" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;startFill=0;" edge="1" parent="1" target="5q3drODiM073Wt-jsi-K-40" source="5q3drODiM073Wt-jsi-K-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="-785" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-43" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-770" width="300" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-44" value="[Nový klient]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="-770" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-45" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="495" y="-730" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-46" value="zaeviduj klienta" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5q3drODiM073Wt-jsi-K-45" parent="1" source="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="-725" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-47" value="&lt;div&gt;ok&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5q3drODiM073Wt-jsi-K-45" parent="1" target="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="-655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-49" value="získaj udáje o klientovi" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5q3drODiM073Wt-jsi-K-48" parent="1" source="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="-675" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-50" value="údaje" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="-624" as="targetPoint" />
+            <mxPoint x="495" y="-624" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-51" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.995;entryY=0.603;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="-591" as="sourcePoint" />
+            <mxPoint x="538.4999999999998" y="-590.0699999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="-590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-52" value="[Existujúci klient]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-584" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-56" value="Databáza" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="570" y="-1160" width="100" height="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-62" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-56">
+          <mxGeometry x="45" y="764" width="10" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-89" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-56">
+          <mxGeometry x="45" y="1360" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-103" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-56">
+          <mxGeometry x="45" y="1730" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-118" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-56">
+          <mxGeometry x="45" y="1980" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-126" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-56">
+          <mxGeometry x="45" y="2203" width="10" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-59" value="&lt;div&gt;zaeviduj príjmy&amp;nbsp;&lt;/div&gt;&lt;div&gt;a záväzky&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="5q3drODiM073Wt-jsi-K-37">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="40" y="-440" as="sourcePoint" />
+            <mxPoint x="120" y="-440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-61" value="&lt;div&gt;zaeviduj príjmy&amp;nbsp;&lt;/div&gt;&lt;div&gt;a záväzky&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="155" y="-407" as="sourcePoint" />
+            <mxPoint x="265" y="-407" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-63" value="&lt;div&gt;vytvor žiadosť&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5q3drODiM073Wt-jsi-K-62" parent="1" source="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="-395" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-64" value="&lt;div&gt;ok&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5q3drODiM073Wt-jsi-K-62" parent="1" target="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="-325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-65" value="BlackList" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="690" y="-1160" width="100" height="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-66" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-65">
+          <mxGeometry x="45" y="860" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-67" value="skontroluj klienta" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5q3drODiM073Wt-jsi-K-66" parent="1" source="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="374" y="-275" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-68" value="odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5q3drODiM073Wt-jsi-K-66" parent="1" target="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="374" y="-205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-69" value="Soc. poisťovna" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="810" y="-1160" width="100" height="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-70" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-180" width="650" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-71" value="Príjem zo závislej činnosti" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-170" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-72" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="855" y="-134" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-73" value="over príjem" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5q3drODiM073Wt-jsi-K-72" parent="1" source="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="-125" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-74" value="odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5q3drODiM073Wt-jsi-K-72" parent="1" target="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="-55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-75" value="&lt;div&gt;SRBI&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="930" y="-1160" width="100" height="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-76" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-75">
+          <mxGeometry x="45" y="1140" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-77" value="ziskaj údaje o úveroch a platobnej disciplíne" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5q3drODiM073Wt-jsi-K-76" parent="1" source="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="-5" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-78" value="odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5q3drODiM073Wt-jsi-K-76" parent="1" target="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry x="0.0008" relative="1" as="geometry">
+            <mxPoint x="290" y="65" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-79" value="zobraz výsledok" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="51" as="sourcePoint" />
+            <mxPoint x="155" y="51" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-80" value="zobraz výsledok" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="80" as="sourcePoint" />
+            <mxPoint x="39.07142857142844" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-82" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="650" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-83" value="[pripadna aktualizacia udajov ]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-85" value="zadaj zmeny" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="5q3drODiM073Wt-jsi-K-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="195" as="sourcePoint" />
+            <mxPoint x="145" y="185.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-86" value="odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="39.666666666666515" y="290" as="targetPoint" />
+            <mxPoint x="145" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-87" value="aktualizuj žiadosť" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="200" as="sourcePoint" />
+            <mxPoint x="265" y="200.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-90" value="aktualizuj žiadosť" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5q3drODiM073Wt-jsi-K-89" parent="1" source="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="205" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-91" value="odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5q3drODiM073Wt-jsi-K-89" parent="1" target="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-92" value="odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="270" as="sourcePoint" />
+            <mxPoint x="155" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-93" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="340" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-97" value="&lt;div&gt;zadaj splatku&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="39.666666666666515" y="400.0000000000002" as="sourcePoint" />
+            <mxPoint x="145" y="400.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-98" value="&lt;div&gt;vypočítaj sadzu,&amp;nbsp;&lt;/div&gt;&lt;div&gt;výšku splátky, RPMN,&lt;/div&gt;&lt;div&gt;kontrola kapacity&lt;/div&gt;&lt;div&gt;splácania&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="155" y="412.9999999999998" as="sourcePoint" />
+            <mxPoint x="265" y="412.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-99" value="odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="459.9999999999998" as="sourcePoint" />
+            <mxPoint x="155" y="459.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-100" value="zobraz výpočet" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="469.9999999999998" as="sourcePoint" />
+            <mxPoint x="39.666666666666515" y="469.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-101" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;tlač žiadosti&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" target="5q3drODiM073Wt-jsi-K-37">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="40" y="530" as="sourcePoint" />
+            <mxPoint x="100" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-102" value="&lt;div&gt;priprav tlačivo&lt;/div&gt;&lt;div&gt;pre žiadosť&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="154" y="569.9999999999998" as="sourcePoint" />
+            <mxPoint x="268.5" y="569.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-104" value="získaj informácie o žiadosti" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5q3drODiM073Wt-jsi-K-103" parent="1" source="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="575" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-105" value="odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5q3drODiM073Wt-jsi-K-103" parent="1" target="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-106" value="&lt;div&gt;vráť žiadosť v&amp;nbsp;&lt;/div&gt;&lt;div&gt;tlačitelnom formáte&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="665.9999999999998" as="sourcePoint" />
+            <mxPoint x="155" y="665.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-107" value="&lt;div&gt;vráť tlačivo&amp;nbsp;&lt;/div&gt;&lt;div&gt;žiadosti&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="5q3drODiM073Wt-jsi-K-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="690" as="sourcePoint" />
+            <mxPoint x="40" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-109" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="-1160" width="20" height="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-121" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-109">
+          <mxGeometry x="5" y="2080" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-110" value="Supervisor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="-1120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-115" value="&lt;div&gt;poslať žiadosť na&amp;nbsp;&lt;/div&gt;&lt;div&gt;schválenie&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" target="5q3drODiM073Wt-jsi-K-37">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="40.00142857142844" y="780" as="sourcePoint" />
+            <mxPoint x="140" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-116" value="&lt;div&gt;nájdi supervízora&amp;nbsp;&lt;/div&gt;&lt;div&gt;na schválenie&amp;nbsp;&lt;/div&gt;&lt;div&gt;žiadosti&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="158" y="810" as="sourcePoint" />
+            <mxPoint x="260" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-120" value="odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5q3drODiM073Wt-jsi-K-118" parent="1" target="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-122" value="odoslanie žiadosti na schválenie" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5q3drODiM073Wt-jsi-K-121" parent="1" source="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="915" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-123" value="odpoveď supervízora" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5q3drODiM073Wt-jsi-K-121" parent="1" target="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-127" value="zmeň stav žiadosti" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="1046" as="sourcePoint" />
+            <mxPoint x="615" y="1046" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-128" value="ok" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5q3drODiM073Wt-jsi-K-126" parent="1" target="5q3drODiM073Wt-jsi-K-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="1135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-129" value="odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="1121" as="sourcePoint" />
+            <mxPoint x="155" y="1121" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-130" value="odpoveď" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="5q3drODiM073Wt-jsi-K-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="144" y="1133" as="sourcePoint" />
+            <mxPoint x="34" y="1133" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-132" value="&lt;div&gt;Hlavný bankový&amp;nbsp;&lt;/div&gt;&lt;div&gt;systém&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1120" y="-1160" width="100" height="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-135" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-132">
+          <mxGeometry x="45" y="2406" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-133" value="zaúčtuj úver" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="43" y="1188" as="sourcePoint" />
+            <mxPoint x="143" y="1188" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-134" value="zaúčtuj úver" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="156" y="1227" as="sourcePoint" />
+            <mxPoint x="266" y="1227" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-136" value="otvorenie nového úveru" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="1246" as="sourcePoint" />
+            <mxPoint x="1165" y="1246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-137" value="ok" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5q3drODiM073Wt-jsi-K-135" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="1291" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-138" value="&lt;div&gt;ok&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="263.02" y="1316" as="sourcePoint" />
+            <mxPoint x="160" y="1316" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-140" value="&lt;div&gt;ok&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="143.01999999999998" y="1356" as="sourcePoint" />
+            <mxPoint x="40" y="1356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-141" value="Systém pobočkový" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1230" y="-1160" width="100" height="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-142" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="5q3drODiM073Wt-jsi-K-141">
+          <mxGeometry x="45" y="2546" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-143" value="čerpanie úveru" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="5q3drODiM073Wt-jsi-K-142" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="39.666666666666515" y="1391" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5q3drODiM073Wt-jsi-K-144" value="ok" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="5q3drODiM073Wt-jsi-K-142" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="39.666666666666515" y="1441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
