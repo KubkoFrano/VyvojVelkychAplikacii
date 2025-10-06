@@ -194,7 +194,7 @@
             <mxPoint x="309" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dZAlSmz0zj5mqucRULhj-58" value="&lt;b style=&quot;text-align: center;&quot;&gt;Webová služba sociálnej poisťovne&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="dZAlSmz0zj5mqucRULhj-58" value="&lt;b style=&quot;text-align: center;&quot;&gt;Centrálny úverový systém (SRBI)&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=5;" vertex="1" parent="1">
           <mxGeometry x="240" y="600" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dZAlSmz0zj5mqucRULhj-59" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dZAlSmz0zj5mqucRULhj-58">
