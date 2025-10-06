@@ -154,7 +154,7 @@
             <mxPoint x="90" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dZAlSmz0zj5mqucRULhj-48" value="Údaje o klientoch" style="html=1;verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;exitX=-0.001;exitY=0.544;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;entryX=1.015;entryY=0.144;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dZAlSmz0zj5mqucRULhj-45" target="dZAlSmz0zj5mqucRULhj-43">
+        <mxCell id="dZAlSmz0zj5mqucRULhj-48" value="Údaje o klientoch" style="html=1;verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;exitX=-0.001;exitY=0.544;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;entryX=1.003;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dZAlSmz0zj5mqucRULhj-45" target="dZAlSmz0zj5mqucRULhj-43">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="430" as="sourcePoint" />
             <mxPoint x="130" y="480" as="targetPoint" />
@@ -174,7 +174,7 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dZAlSmz0zj5mqucRULhj-54" value="Údaje o klientoch" style="html=1;verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=0;entryY=0.546;entryDx=0;entryDy=0;exitX=1.01;exitY=0.383;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;entryPerimeter=0;" edge="1" parent="1" source="dZAlSmz0zj5mqucRULhj-43" target="dZAlSmz0zj5mqucRULhj-52">
+        <mxCell id="dZAlSmz0zj5mqucRULhj-54" value="Údaje o klientoch" style="html=1;verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=0;entryY=0.546;entryDx=0;entryDy=0;exitX=1.003;exitY=0.386;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;entryPerimeter=0;" edge="1" parent="1" source="dZAlSmz0zj5mqucRULhj-43" target="dZAlSmz0zj5mqucRULhj-52">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="490" as="sourcePoint" />
             <mxPoint x="311" y="490" as="targetPoint" />
@@ -188,7 +188,7 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dZAlSmz0zj5mqucRULhj-57" value="Príjmy klientov" style="html=1;verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.008;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;" edge="1" parent="1" source="dZAlSmz0zj5mqucRULhj-43" target="dZAlSmz0zj5mqucRULhj-55">
+        <mxCell id="dZAlSmz0zj5mqucRULhj-57" value="Príjmy klientov" style="html=1;verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.005;exitY=0.548;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;" edge="1" parent="1" source="dZAlSmz0zj5mqucRULhj-43" target="dZAlSmz0zj5mqucRULhj-55">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="530" as="sourcePoint" />
             <mxPoint x="309" y="530" as="targetPoint" />
@@ -222,7 +222,7 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dZAlSmz0zj5mqucRULhj-64" value="Nové úvery" style="html=1;verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.006;exitY=0.966;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;" edge="1" parent="1" source="dZAlSmz0zj5mqucRULhj-43" target="dZAlSmz0zj5mqucRULhj-62">
+        <mxCell id="dZAlSmz0zj5mqucRULhj-64" value="Nové úvery" style="html=1;verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.007;exitY=0.964;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;" edge="1" parent="1" source="dZAlSmz0zj5mqucRULhj-43" target="dZAlSmz0zj5mqucRULhj-62">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="85" y="710" as="sourcePoint" />
             <mxPoint x="244" y="710" as="targetPoint" />
