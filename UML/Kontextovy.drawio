@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="Page-1" id="mt74ft-CJVw-1JjEMwi3">
-    <mxGraphModel dx="738" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="681" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -192,6 +192,26 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="530" as="sourcePoint" />
             <mxPoint x="309" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZAlSmz0zj5mqucRULhj-58" value="&lt;b style=&quot;text-align: center;&quot;&gt;Webová služba sociálnej poisťovne&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dZAlSmz0zj5mqucRULhj-59" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dZAlSmz0zj5mqucRULhj-58">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZAlSmz0zj5mqucRULhj-60" value="Platobná disciplína klientov" style="html=1;verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1.003;exitY=0.586;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;" edge="1" parent="1" source="dZAlSmz0zj5mqucRULhj-43" target="dZAlSmz0zj5mqucRULhj-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="568.82" as="sourcePoint" />
+            <mxPoint x="269" y="568.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZAlSmz0zj5mqucRULhj-61" value="Údaje o úveroch klientov" style="html=1;verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=1;entryY=0.517;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;endFill=1;entryPerimeter=0;" edge="1" parent="1" source="dZAlSmz0zj5mqucRULhj-58" target="dZAlSmz0zj5mqucRULhj-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="570" as="sourcePoint" />
+            <mxPoint x="260" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
