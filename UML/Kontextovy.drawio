@@ -141,7 +141,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dZAlSmz0zj5mqucRULhj-45" value="&lt;b&gt;Klientský systém banky&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=5;" vertex="1" parent="1">
-          <mxGeometry x="240" y="320" width="180" height="110" as="geometry" />
+          <mxGeometry x="240" y="320" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="dZAlSmz0zj5mqucRULhj-46" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dZAlSmz0zj5mqucRULhj-45">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -167,7 +167,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dZAlSmz0zj5mqucRULhj-52" value="&lt;b&gt;Blacklist banky&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=5;" vertex="1" parent="1">
-          <mxGeometry x="240" y="460" width="180" height="40" as="geometry" />
+          <mxGeometry x="240" y="460" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dZAlSmz0zj5mqucRULhj-53" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dZAlSmz0zj5mqucRULhj-52">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -181,7 +181,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dZAlSmz0zj5mqucRULhj-55" value="&lt;b&gt;Webová služba sociálnej poisťovne&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=5;" vertex="1" parent="1">
-          <mxGeometry x="240" y="530" width="180" height="40" as="geometry" />
+          <mxGeometry x="240" y="530" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dZAlSmz0zj5mqucRULhj-56" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dZAlSmz0zj5mqucRULhj-55">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -195,7 +195,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dZAlSmz0zj5mqucRULhj-58" value="&lt;b style=&quot;text-align: center;&quot;&gt;Centrálny úverový systém (SRBI)&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=5;" vertex="1" parent="1">
-          <mxGeometry x="240" y="600" width="180" height="80" as="geometry" />
+          <mxGeometry x="240" y="600" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dZAlSmz0zj5mqucRULhj-59" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dZAlSmz0zj5mqucRULhj-58">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -215,7 +215,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dZAlSmz0zj5mqucRULhj-62" value="&lt;b&gt;Hlavný bankový systém&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=5;" vertex="1" parent="1">
-          <mxGeometry x="240" y="710" width="180" height="30" as="geometry" />
+          <mxGeometry x="240" y="710" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dZAlSmz0zj5mqucRULhj-63" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dZAlSmz0zj5mqucRULhj-62">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
