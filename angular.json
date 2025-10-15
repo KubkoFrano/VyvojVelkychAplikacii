@@ -59,7 +59,8 @@
               "buildTarget": "vvsa-frontend:build:production"
             },
             "development": {
-              "buildTarget": "vvsa-frontend:build:development"
+              "buildTarget": "vvsa-frontend:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

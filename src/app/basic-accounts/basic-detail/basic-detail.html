@@ -3,6 +3,24 @@
 link to basic accounts list component
 </a>
 
-<div>
-    <p>Idcko usera je: {{ userId }}</p>
-</div>
+@if (transaction) {
+<table>
+  <thead>
+    <tr>
+      <th>PARTNER NAME</th>
+      <th>TYPE</th>
+      <th>DATE</th>
+      <th>AMOUNT</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+      <tr>
+        <td>{{ transaction.fullName }}</td>
+        <td>{{ transaction.transactionType | transactionType }}</td>
+        <td>{{ transaction.issueDate }}</td>
+        <td>{{ transaction.amount }}</td>
+      </tr>
+  </tbody>
+</table>
+}

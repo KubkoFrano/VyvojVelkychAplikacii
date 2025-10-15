@@ -2,3 +2,31 @@
 <a routerLink="/dashboard">
 link to dashboard component
 </a>
+
+<table>
+  <thead>
+    <tr>
+      <th>PARTNER NAME</th>
+      <th>TYPE</th>
+      <th>DATE</th>
+      <th>AMOUNT</th>
+      <th>DETAIL</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (item of transactionList; track item.transactionId) {
+      <tr>
+        <td>{{ item.fullName }}</td>
+        <td>{{ item.transactionType | transactionType}}</td>
+        <td>{{ item.issueDate }}</td>
+        <td>{{ item.amount }}</td>
+        <td>
+          <a [routerLink]="['/basic-accounts/detail', item.transactionId]">
+            linka
+          </a>
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>
+
