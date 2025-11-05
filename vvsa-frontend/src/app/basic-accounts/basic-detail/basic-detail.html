@@ -1,0 +1,25 @@
+<a routerLink="/basic-accounts">
+link to basic accounts list component
+</a>
+
+@if (transaction) {
+<form style="display: flex; flex-direction: column; width: 20%;" [formGroup]="transactionForm">
+  <mat-form-field>
+    <mat-label>Account number</mat-label>
+    <input matInput formControlName="accountNumberField">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Amount</mat-label>
+    <input matInput formControlName="amountField">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Issue date</mat-label>
+    <input matInput [matDatepicker]="picker" formControlName="dateField">
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+</form>
+}
