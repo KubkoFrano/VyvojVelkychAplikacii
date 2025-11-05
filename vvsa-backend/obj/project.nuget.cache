@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ApGe4aKOTB0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adams\\Documents\\4_fmfi\\vvsa\\vvsa-backend\\vvsa-backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adams\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0-rc.2.25502.107\\microsoft.aspnetcore.openapi.10.0.0-rc.2.25502.107.nupkg.sha512",
+    "C:\\Users\\adams\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\adams\\.nuget\\packages\\scalar.aspnetcore\\2.10.1\\scalar.aspnetcore.2.10.1.nupkg.sha512"
+  ],
+  "logs": []
+}
