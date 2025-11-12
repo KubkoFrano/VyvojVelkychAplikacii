@@ -4,7 +4,7 @@ using vvsa_backend.Service;
 namespace vvsa_backend.Controllers;
 
 [ApiController]
-[Route("[api/transaction]")]
+[Route("api/transaction")]
 public class TransactionController : ControllerBase
 {
     private readonly ITransactionService transactionService;
