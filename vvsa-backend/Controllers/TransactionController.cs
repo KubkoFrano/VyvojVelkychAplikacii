@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using vvsa_backend.Service;
+using vvsa_backend.ViewModels;
 
-namespace vvsa_backend.Controllers;
+namespace vvsa_backend.DatabaseModel;
 
 [ApiController]
 [Route("api/transaction")]
@@ -14,12 +15,12 @@ public class TransactionController : ControllerBase
         this.transactionService = transactionService;
     }
 
-    public List<Transaction> GetAllTransactions()
+    public List<TransactionViewModel> GetAllTransactions()
     {
         return transactionService.GetAllTransactions();
     }
 
-    public Transaction GetTransactionById(int id)
+    public TransactionViewModel GetTransactionById(int id)
     {
         return transactionService.GetTransactionById(id);
     }

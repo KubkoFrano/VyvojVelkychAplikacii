@@ -1,11 +1,13 @@
-using vvsa_backend.Repository;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using vvsa_backend.DatabaseModel;
+using vvsa_backend.ViewModels;
 
 namespace vvsa_backend.Service;
 
 public interface ITransactionService
 {
-    public List<Transaction> GetAllTransactions();
-    Transaction GetTransactionById(int id);
+    public List<TransactionViewModel> GetAllTransactions();
+    TransactionViewModel GetTransactionById(int id);
 }
 
 public class TransactionService : ITransactionService
@@ -17,13 +19,41 @@ public class TransactionService : ITransactionService
     {
         this.transactionRepository = transactionRepository;
     }
-    public List<Transaction> GetAllTransactions()
+    public List<TransactionViewModel> GetAllTransactions()
     {
-        return transactionRepository.GetAllTransactions();
+        var newList = new List<TransactionViewModel>();
+
+        var oldList = transactionRepository.GetAllTransactions();
+
+        foreach (var trans in oldList)
+        {
+            var viewModel = new TransactionViewModel
+            {
+                AccountNumber = trans.AccountNumber,
+                Amount = trans.Amount,
+                BankCode = trans.BankCode,
+                FullName = trans.User.Name,
+                IssueDate = trans.IssueDate,
+                TransactionType = trans.TransactionType.Name
+            };
+
+            newList.Add(viewModel);
+        }
+        return newList;
     }
 
-    public Transaction GetTransactionById(int id)
+    public TransactionViewModel GetTransactionById(int id)
     {
-        return transactionRepository.GetTransactionById(id);
+        var trans = transactionRepository.GetTransactionById(id);
+        var viewModel = new TransactionViewModel
+        {
+            AccountNumber = trans.AccountNumber,
+            Amount = trans.Amount,
+            BankCode = trans.BankCode,
+            FullName = trans.User.Name,
+            IssueDate = trans.IssueDate,
+            TransactionType = trans.TransactionType.Name
+        };
+        return viewModel;
     }
 }

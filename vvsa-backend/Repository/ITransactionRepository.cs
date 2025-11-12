@@ -1,4 +1,7 @@
-namespace vvsa_backend.Repository;
+using Microsoft.EntityFrameworkCore;
+using vvsa_backend.DatabaseModel;
+
+namespace vvsa_backend.DatabaseModel;
 
 public interface ITransactionRepository
 {
@@ -6,26 +9,36 @@ public interface ITransactionRepository
     Transaction GetTransactionById(int id);
 }
 
+
 public class TransactionRepository : ITransactionRepository
 {
 
     private List<Transaction> transactions;
-
-    public TransactionRepository()
+    private readonly Whiyes5oContext context;
+    public TransactionRepository(Whiyes5oContext context)
     {
-        Transaction trans1 = new Transaction { TransactionId = 1 };
-        Transaction trans2 = new Transaction { TransactionId = 2 };
+        this.context = context;
+        Transaction trans1 = new Transaction { Id = 1 };
+        Transaction trans2 = new Transaction { Id = 2 };
 
         transactions = new List<Transaction> { trans1, trans2 };
     }
 
     public List<Transaction> GetAllTransactions()
     {
-        return transactions;
+        var result = this.context.Transactions
+        .Include(p => p.User)
+        .Include(p => p.TransactionType)
+        .ToList();
+        return result;
     }
 
     public Transaction GetTransactionById(int id)
     {
-        return transactions.FirstOrDefault(t => t.TransactionId == id);
+        var result = this.context.Transactions
+        .Include(p => p.User)
+        .Include(p => p.TransactionType)
+        .FirstOrDefault(p => p.Id == id);
+        return result;
     }
 }

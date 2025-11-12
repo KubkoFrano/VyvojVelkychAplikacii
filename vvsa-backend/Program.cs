@@ -1,5 +1,5 @@
 using Scalar.AspNetCore;
-using vvsa_backend.Repository;
+using vvsa_backend.DatabaseModel;
 using vvsa_backend.Service;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +13,8 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddScoped<ITransactionService, TransactionService>();
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
+builder.Services.AddDbContext<Whiyes5oContext>();
+
 
 var app = builder.Build();
 
