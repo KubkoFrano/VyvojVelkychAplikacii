@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vvsa-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e97b6dbbdc1a610b2013bebcb90577f9a9fba3b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6969e345b7e4313bed6b3ab3dbfaffe3f835f13")]
 [assembly: System.Reflection.AssemblyProductAttribute("vvsa-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vvsa-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

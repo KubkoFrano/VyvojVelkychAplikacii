@@ -1,6 +1,7 @@
 using Scalar.AspNetCore;
 using vvsa_backend.DatabaseModel;
 using vvsa_backend.Service;
+using vvsa_backend.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 

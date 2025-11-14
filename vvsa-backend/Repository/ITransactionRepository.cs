@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using vvsa_backend.DatabaseModel;
 
-namespace vvsa_backend.DatabaseModel;
+namespace vvsa_backend.Repository;
 
 public interface ITransactionRepository
 {

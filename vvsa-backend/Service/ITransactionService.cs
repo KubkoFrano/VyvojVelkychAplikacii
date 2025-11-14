@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using vvsa_backend.DatabaseModel;
 using vvsa_backend.ViewModels;
+using vvsa_backend.Repository;
 
 namespace vvsa_backend.Service;
 
