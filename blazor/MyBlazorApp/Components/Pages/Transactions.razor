@@ -1,0 +1,103 @@
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.EntityFrameworkCore
+@using MyBlazorApp.DatabaseModel
+
+@rendermode InteractiveServer
+
+@inject IDbContextFactory<Whiyes5oContext> DbContextFactory
+
+@page "/transactions"
+
+<PageTitle>Transactions</PageTitle>
+
+<h1>Transactions</h1>
+
+<div class="card mb-3">
+    <div class="card-body">
+        <EditForm method="post" Model="FilterForm" FormName="filter">
+        <DataAnnotationsValidator/>
+        <ValidationSummary class="text-danger"/>
+
+        <div class="row g-3">
+            <div class="col-md-3">
+                <label for="filterMinAmount" class="form-label">Min Amount</label>
+                <InputText type="text" id="filterMinAmount" @bind-value="FilterForm.MinAmount" @oninput="OnMinAmountChanged" class="form-control"/>
+                <ValidationMessage For="() => FilterForm.MinAmount" class="text-danger"/>  
+            </div>
+        </div>
+        
+        </EditForm>
+    
+    </div>
+
+
+</div>
+
+
+<table class="table">
+<thead>
+    <tr>
+        <th>Id</th>
+        <th>Type</th>
+        <th>Amout</th>
+        <th>User</th>
+        <th>Actions</th>
+    </tr>
+</thead>
+<tbody>
+    @foreach (var transaction in FilteredTransactionsList) {
+        <tr>
+            <td>@transaction.Id</td>
+            <td>@transaction.TransactionType?.Name</td>
+            <td>@transaction.Amount.ToString("C")</td>
+            <td>@transaction.User?.Name</td>
+            <td>
+                <a href="/transaction/@transaction.Id" class="btn btn-sm btn-primary">
+                View Detail
+                </a>
+            </td>
+            <td>Delete</td>
+        </tr>
+    }
+</tbody>
+
+
+</table>
+
+
+@code {
+    [SupplyParameterFromForm]
+    public FilterFormDto FilterForm {get; set; } = new();
+
+    private List<Transaction> TransactionsList {get; set;} = new();
+    private List<Transaction> FilteredTransactionsList { get; set; } = new();
+
+
+    protected override async Task OnInitializedAsync(){
+        await using var context = await DbContextFactory.CreateDbContextAsync();
+
+        TransactionsList = await context.Transactions
+        .Include(o => o.TransactionType)
+        .Include(o => o.User)
+        .OrderByDescending(p => p.Id)
+        .ToListAsync();
+
+        FilteredTransactionsList = TransactionsList.ToList();
+    }
+
+    private async Task OnMinAmountChanged(ChangeEventArgs e) {
+        Console.WriteLine(e.Value);
+        if (decimal.TryParse(e.Value?.ToString(), out decimal minAmount)) {
+            FilteredTransactionsList = TransactionsList.Where(p => p.Amount >= minAmount).ToList();
+
+        } else {
+            FilteredTransactionsList = TransactionsList.ToList();
+        }
+    }
+
+    public class FilterFormDto {
+        [Range(0, double.MaxValue, ErrorMessage = "Amount must be a positive number")]
+        public string MinAmount {get; set;}
+    }
+
+}
